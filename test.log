@@ -1,0 +1,6 @@
+2025-02-11 10:00:00 INFO Starting application
+2025-02-11 10:01:00 ERROR Database connection failed
+2025-02-11 10:02:00 WARN Retrying connection
+2025-02-11 10:03:00 INFO Database connected successfully
+2025-02-11 10:04:00 ERROR Failed to process request
+2025-02-11 10:05:00 INFO Processing completed

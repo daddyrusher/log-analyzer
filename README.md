@@ -35,10 +35,10 @@ log-analyzer -f path/to/logfile.log
 log-analyzer -f logfile.log -p "ERROR"
 
 # Filter logs within time range
-log-analyzer -f logfile.log --from "2024-02-11 10:00:00" --to "2024-02-11 11:00:00"
+log-analyzer -f logfile.log --from "2025-02-11 10:00:00" --to "2025-02-11 11:00:00"
 
 # Combine pattern and time filtering
-log-analyzer -f logfile.log -p "ERROR" --from "2024-02-11 10:00:00" --to "2024-02-11 11:00:00"
+log-analyzer -f logfile.log -p "ERROR" --from "2025-02-11 10:00:00" --to "2025-02-11 11:00:00"
 
 # Specify number of processing threads
 log-analyzer -f logfile.log -t 8
@@ -61,8 +61,8 @@ YYYY-MM-DD HH:MM:SS LEVEL Message
 
 Example:
 ```
-2024-02-11 10:00:00 INFO Starting application
-2024-02-11 10:01:00 ERROR Database connection failed
+2025-02-11 10:00:00 INFO Starting application
+2025-02-11 10:01:00 ERROR Database connection failed
 ```
 
 ## Development

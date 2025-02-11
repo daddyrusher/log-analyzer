@@ -16,7 +16,7 @@ A command-line tool written in Rust for analyzing log files with support for pat
 Clone the repository and build using Cargo:
 
 ```bash
-git clone https://github.com/yourusername/log-analyzer.git
+git clone https://github.com/daddyrusher/log-analyzer.git
 cd log-analyzer
 cargo build --release
 ```

@@ -6,9 +6,7 @@ fn main() -> Result<()> {
     let args = Args::parse();
     let analyzer = LogAnalyzer::new(args);
 
-    if !analyzer.args.path.exists() {
-        anyhow::bail!("Specified path does not exist");
-    }
+    analyzer.validate_path()?;
 
     let entries = analyzer.analyze_file(&analyzer.args.path)?;
     analyzer.process_entries(entries)?;
